@@ -5,7 +5,6 @@ attempts=0
 guess=0
 
 print("I'm thinking of a number between 1 and 100.")
-print("(Testing) The secret number is:", secret)
 
 while guess != secret:
     guess = int(input("Take a guess: "))
