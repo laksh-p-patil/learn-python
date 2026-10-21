@@ -5,7 +5,7 @@ attempts=0
 guess=0
 
 print("I'm thinking of a number between 1 and 100.")
-
+f
 while guess != secret:
     guess = int(input("Take a guess: "))
     attempts += 1
